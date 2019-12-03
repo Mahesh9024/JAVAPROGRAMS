@@ -5,7 +5,7 @@ public class Sequenceof1and0 {
 	public static void main(String[] args) {
 
 		
-		char[] a = {'1','1','1','0','1'};
+		char[] a = {'1','0','1','0','1'};
 		
 		int len= a.length;
 		
