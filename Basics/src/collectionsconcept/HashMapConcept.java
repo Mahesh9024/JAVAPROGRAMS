@@ -17,10 +17,12 @@ public class HashMapConcept {
 		hm.put(4, "QTP");
 		
 		System.out.println(hm);
-		
+		System.out.println("***********");
 		////to fetch values
 		System.out.println(hm.get(2));
-		System.out.println(hm.get(4)); //it will not thorw any exception, instead it will print null
+		System.out.println(hm.get(4)); 
+		System.out.println(hm.get(5));//it will not thorw any exception, instead it will print null
+		System.out.println("*********************");
 		
 		//to iterate all the key
 		//we have to use entry set

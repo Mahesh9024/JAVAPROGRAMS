@@ -13,7 +13,7 @@ public class StringlengthUsingForEach {
 		System.out.println("Enter a String");
 		str = sc.nextLine();
 		System.out.println("The entered String is "+str);
-		//to convert ti to character array
+		//to convert it to character array
 		char ch[] = str.toCharArray();
 		for(char c : ch)
 		{

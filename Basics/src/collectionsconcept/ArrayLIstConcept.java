@@ -25,7 +25,7 @@ public class ArrayLIstConcept {
 		//to fetch array
 		System.out.println("The array element is :"+arr.get(2));
 		
-		//again we cana dd into the array
+		//again we can add into the array
 		arr.add(50);
 		arr.add("selenium");
 		arr.add('A');
@@ -33,10 +33,10 @@ public class ArrayLIstConcept {
 		
 		//in abvove array we are getting warning symbol because it's non-generic
 		//Above examples are non-generic types of arraylist
-		//because we cans tore any type of data into the array
+		//because we can store any type of data into the array
 		
-		//To store only the particular type of array , we have to use generics like below example
-		//here we will not et any warning symbols
+		//To store only the particular type of array , we have to use generics like, below example
+		//here we will not get any warning symbols
 		ArrayList<String> li = new ArrayList<String>();
 		
 		//li.add(20); error, becuase it's generic now and we should store only String type of data into the array Object

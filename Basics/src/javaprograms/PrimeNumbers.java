@@ -35,6 +35,7 @@ public class PrimeNumbers {
 		System.out.println("The given number is Prime Number:"+isPrimenumber(2));
 		System.out.println("The given number is Prime Number:"+isPrimenumber(3));
 		System.out.println("The given number is Prime Number:"+isPrimenumber(5667));
+		System.out.println("The given number is Prime Number:"+isPrimenumber(4));
 		getPriemNumbers(7);
 	}
 
